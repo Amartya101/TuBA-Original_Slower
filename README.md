@@ -1,15 +1,15 @@
 # TuBA
 TuBA - Tunable Biclustering Algorithm for Gene Expression Datasets
 
-INSTRUCTIONS FOR USING TuBA’s CODE
+## INSTRUCTIONS FOR USING TuBA’s CODE
 
-1. System Requirements
+### 1. System Requirements
 
 It is recommended that the code for TuBA be run on a machine with at least 16GB RAM with an R version not older than 3.3.0. The run time of the code can vary between 2 - 14 hrs depending on the size of the dataset and the choice of the knobs.
 
-2. Packages Required
+### 2. Packages Required
 
-The following packages have been used in TuBA’s Code: data.table, plyr and igraph.
+The following packages have been used in TuBA’s Code: '''data.table, plyr and igraph.'''
 
 They can be installed by using the following commands in R:
 
@@ -19,7 +19,7 @@ install.packages("plyr”, dependencies = TRUE)
 
 install.packages("igraph”, dependencies = TRUE)
 
-3. How to Use The Code
+### 3. How to Use The Code
 
 The code for TuBA consists of 3 functions:
 
